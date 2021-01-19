@@ -17,9 +17,8 @@ public class Collectible : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D target){
-    	print("azdad");
     	if(target.gameObject.tag == "Player"){
-    		myGui.increaseScore();
+    		myGui.increaseNombrePlanches();
     		Destroy(gameObject);
     	}
     }
