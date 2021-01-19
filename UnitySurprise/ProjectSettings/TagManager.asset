@@ -9,6 +9,7 @@ TagManager:
   - Cailloux
   - Pelle
   - Sable
+  - map
   layers:
   - Default
   - TransparentFX

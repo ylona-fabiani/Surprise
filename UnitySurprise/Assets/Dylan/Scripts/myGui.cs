@@ -6,6 +6,8 @@ public class myGui : MonoBehaviour
 {   
 
     static public int niveauJoueur;
+    static public int niveauMap;
+
     static public bool possedePelle;
 
     static public int nombrePlanches;
@@ -16,11 +18,18 @@ public class myGui : MonoBehaviour
     static public int nombreTissusNecessaires;
     static public int nombreCaillouxNecessaires;
 
-    static public bool creusable;
+    static public Collectible creusable;
+    static public bool affichemap;
 
     public Texture2D imagePlanches;
     public Texture2D imageTissus;
     public Texture2D imageCailloux;
+
+    public Texture2D fullMap;
+    public Texture2D map1;
+    public Texture2D map2;
+    public Texture2D map3;
+
     // Start is called before the first frame update
     void Start(){
         nombrePlanches = 0;
@@ -29,11 +38,14 @@ public class myGui : MonoBehaviour
 
         niveauJoueur = 0;
         possedePelle=false;
-        creusable =false;
+        creusable =null;
 
         nombrePlanchesNecessaires = 5;
         nombreTissusNecessaires = 0;
         nombreCaillouxNecessaires = 0;
+
+        niveauMap=0;
+        affichemap=false;
         }
 
     // Update is called once per frame
@@ -88,9 +100,41 @@ public class myGui : MonoBehaviour
          GUI.Label (new Rect(400,8,80,20), niveauJoueur.ToString());
          GUI.Label (new Rect(400,80,80,20), possedePelle.ToString());
 
-         if(creusable){
+         if(affichemap){
+            if(niveauMap==0){
+                GUI.Label(new Rect(200, 50, fullMap.width/3, fullMap.height/3), fullMap);
+            }
+            else if(niveauMap==1){
+                GUI.Label(new Rect(200, 50, fullMap.width/3, fullMap.height/3), fullMap);
+                GUI.Label(new Rect(200, 50, map1.width/3, map1.height/3), map1);
+            }
+            else if(niveauMap==2){
+                GUI.Label(new Rect(200, 50, fullMap.width/3, fullMap.height/3), fullMap);
+                GUI.Label(new Rect(200, 50, map1.width/3, map1.height/3), map1);
+                GUI.Label(new Rect(200, 50, map2.width/3, map2.height/3), map2);
+            }
+            else if(niveauMap==3){
+                GUI.Label(new Rect(200, 50, fullMap.width/3, fullMap.height/3), fullMap);
+                GUI.Label(new Rect(200, 50, map1.width/3, map1.height/3), map1);
+                GUI.Label(new Rect(200, 50, map2.width/3, map2.height/3), map2);
+                GUI.Label(new Rect(200, 50, map3.width/3, map3.height/3), map3);
+            }
+            
+                
+                
+                
+         }
+
+
+         if (affichemap && GUI.Button (new Rect (Screen.width-100, Screen.height-40, 80, 20), "Carte")) {
+            affichemap=false;
+            }else if(!affichemap && GUI.Button (new Rect (Screen.width-100, Screen.height-40, 80, 20), "Carte")){
+                affichemap=true;
+            }
+
+         if(creusable!=null){
              if (GUI.Button (new Rect (Screen.width/2-40, Screen.height/2-10, 80, 20), "Creuser")) {
-                //Collectible.creuser();
+                creusable.creuser();
             }
          }
     }
@@ -98,10 +142,11 @@ public class myGui : MonoBehaviour
     public static void increaseNombrePlanches(){nombrePlanches=nombrePlanches+1;}
     public static void increaseNombreTissus(){nombreTissus=nombreTissus+1;}
     public static void increaseNombreCailloux(){nombreCailloux=nombreCailloux+1;}
+    public static void increaseMap(){niveauMap=niveauMap+1;}
     public static void recuperePelle(){possedePelle=true;}
 
-    public static void afficheCreuser(){
+    public static void afficheCreuser(Collectible collectible){
         if(possedePelle){
-        creusable=true;}
+        creusable=collectible;}
     }
 }

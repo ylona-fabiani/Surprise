@@ -30,12 +30,16 @@ public class Collectible : MonoBehaviour
                 myGui.recuperePelle();
                 Destroy(gameObject);
             }
+            else if(this.tag == "map"){
+                myGui.increaseMap();
+                Destroy(gameObject);
+            }
             else if(this.tag == "Sable"){
-                myGui.afficheCreuser();
+                myGui.afficheCreuser(this);
             }
 
     	}
     }
 
-    //public static void creuser(){Destroy(gameObject);}
+    public void creuser(){Destroy(gameObject);}
 }
