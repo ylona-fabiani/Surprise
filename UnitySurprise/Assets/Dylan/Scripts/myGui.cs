@@ -6,6 +6,7 @@ public class myGui : MonoBehaviour
 {   
 
     static public int niveauJoueur;
+    static public bool possedePelle;
 
     static public int nombrePlanches;
     static public int nombreTissus;
@@ -25,6 +26,7 @@ public class myGui : MonoBehaviour
         nombreCailloux = 0;
 
         niveauJoueur = 0;
+        possedePelle=false;
 
         nombrePlanchesNecessaires = 5;
         nombreTissusNecessaires = 0;
@@ -81,10 +83,12 @@ public class myGui : MonoBehaviour
          GUI.Label(new Rect(83, 0, imageCailloux.width/8, imageCailloux.height/8), imageCailloux);
 
          GUI.Label (new Rect(400,8,80,20), niveauJoueur.ToString());
+         GUI.Label (new Rect(400,80,80,20), possedePelle.ToString());
 
     }
 
     public static void increaseNombrePlanches(){nombrePlanches=nombrePlanches+1;}
     public static void increaseNombreTissus(){nombreTissus=nombreTissus+1;}
     public static void increaseNombreCailloux(){nombreCailloux=nombreCailloux+1;}
+    public static void recuperePelle(){possedePelle=true;}
 }

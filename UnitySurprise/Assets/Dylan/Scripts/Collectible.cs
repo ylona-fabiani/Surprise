@@ -26,6 +26,10 @@ public class Collectible : MonoBehaviour
                 myGui.increaseNombreCailloux();
                 Destroy(gameObject);
             }
+            else if(this.tag == "Pelle"){
+                myGui.recuperePelle();
+                Destroy(gameObject);
+            }
 
     	}
     }

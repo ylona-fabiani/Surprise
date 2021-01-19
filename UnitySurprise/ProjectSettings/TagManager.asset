@@ -7,6 +7,7 @@ TagManager:
   - Tissus
   - Planches
   - Cailloux
+  - Pelle
   layers:
   - Default
   - TransparentFX
