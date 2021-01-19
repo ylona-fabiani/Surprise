@@ -95,4 +95,8 @@ public class PlayerMovement : MonoBehaviour
     public static void increaseLevel(){
     	level++;
     }
+
+    public void setForme(string f) {
+    	forme = f;
+    }
 }
