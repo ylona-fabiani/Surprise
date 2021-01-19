@@ -4,45 +4,32 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-	public Rigidbody2D rb;
-    public float vitesse;
+    public Rigidbody2D rb;
 
-    void Start(){}
+    public float vitesse_bateau;
+    public float vitesse_perso;
+    public string forme;
+
+
+    void Start(){
+
+    }
 
     void Update()
     {
-        if((Input.GetKey(KeyCode.UpArrow)) && (Input.GetKey(KeyCode.LeftArrow))){
-            rb.velocity = new Vector2(-vitesse, vitesse);
-        }
-        else if((Input.GetKey(KeyCode.UpArrow)) && (Input.GetKey(KeyCode.RightArrow))){
-            rb.velocity = new Vector2(vitesse, vitesse);
-        }
-        else if((Input.GetKey(KeyCode.DownArrow)) && (Input.GetKey(KeyCode.LeftArrow))){
-            rb.velocity = new Vector2(-vitesse, -vitesse);
-        }
-        else if((Input.GetKey(KeyCode.DownArrow)) && (Input.GetKey(KeyCode.RightArrow))){
-            rb.velocity = new Vector2(vitesse, -vitesse);
-        }
 
+        float xmove = Input.GetAxisRaw("Horizontal");
+        float ymove = Input.GetAxisRaw("Vertical");
 
-        else if(Input.GetKey(KeyCode.UpArrow)){
-            rb.velocity = new Vector2(0.0f, vitesse);
+        switch(forme){
+
+            case "bateau":
+                rb.AddForce(new Vector2(xmove, ymove) * vitesse_bateau);
+                break;
+
+            default :
+                rb.velocity = new Vector2(xmove, ymove) * vitesse_perso;
+                break;
         }
-        else if(Input.GetKey(KeyCode.DownArrow)){
-            rb.velocity = new Vector2(0.0f, -vitesse);
-        }
-        else if(Input.GetKey(KeyCode.LeftArrow)){
-            rb.velocity = new Vector2(-vitesse, 0.0f);
-        }
-        else if(Input.GetKey(KeyCode.RightArrow)){
-            rb.velocity = new Vector2(vitesse, 0.0f);
-        }
-        else if(Input.GetKey(KeyCode.Space)){
-            rb.velocity = new Vector2(0.0f, 0.0f);
-        }
-        
-       
     }
-
-    
 }
