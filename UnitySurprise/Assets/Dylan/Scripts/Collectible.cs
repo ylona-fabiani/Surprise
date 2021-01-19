@@ -15,7 +15,6 @@ public class Collectible : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D target){
     	if(target.gameObject.tag == "Player"){
-            print("player");
             if(this.tag == "Planches"){
     		  myGui.increaseNombrePlanches();
     		  Destroy(gameObject);}
