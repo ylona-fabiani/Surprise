@@ -37,7 +37,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2336807678980590613, guid: d53e5eff4ef94c24c9f92780cdf3d178, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: coffre
       objectReference: {fileID: 0}
     - target: {fileID: 4613423325833329571, guid: d53e5eff4ef94c24c9f92780cdf3d178, type: 3}
       propertyPath: m_Sprite
@@ -113,7 +113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8500518874295899775, guid: d53e5eff4ef94c24c9f92780cdf3d178, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: coffre
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d53e5eff4ef94c24c9f92780cdf3d178, type: 3}

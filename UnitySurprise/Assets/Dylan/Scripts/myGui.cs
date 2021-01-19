@@ -101,9 +101,6 @@ public class myGui : MonoBehaviour
          GUI.Label (new Rect(113,8,80,20), nombreCailloux.ToString() + " / "+ nombreCaillouxNecessaires.ToString() );
          GUI.Label(new Rect(83, 0, imageCailloux.width/8, imageCailloux.height/8), imageCailloux);
 
-         GUI.Label (new Rect(400,8,80,20), niveauJoueur.ToString());
-         GUI.Label (new Rect(400,80,80,20), possedePelle.ToString());
-
          if(affichemap){
             if(niveauMap==0){
                 GUI.Label(new Rect(200, 50, fullMap.width/3, fullMap.height/3), fullMap);

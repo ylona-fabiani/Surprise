@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-
+        SoundEffectsHelper.Instance.MakePlayerShotSound();
         float xmove = Input.GetAxisRaw("Horizontal");
         float ymove = Input.GetAxisRaw("Vertical");
 

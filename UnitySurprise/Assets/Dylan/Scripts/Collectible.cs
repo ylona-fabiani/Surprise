@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
+    bool aEteCreuser;
     Collectible coffre;
     // Start is called before the first frame update
     void Start()
     {
+        aEteCreuser = false;
+        if(this.tag == "coffre"){
+                this.gameObject.SetActive(true);
+            }
         
     }
 
     // Update is called once per frame
-    void Update(){}
+    void Update(){
+        if(aEteCreuser){
+            print("adz");
+            this.gameObject.SetActive(false);}
+    }
 
     void OnTriggerEnter2D(Collider2D target){
     	if(target.gameObject.tag == "Player"){
@@ -46,5 +55,9 @@ public class Collectible : MonoBehaviour
     	}
     }
 
-    public void creuser(){Destroy(gameObject);}
+    public void creuser(){
+        Destroy(gameObject);
+        aEteCreuser=true;
+        
+    }
 }
