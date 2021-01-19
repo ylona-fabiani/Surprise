@@ -54,6 +54,7 @@ public class myGui : MonoBehaviour
         if(nombrePlanches >= 5 && niveauJoueur == 0){
             nombrePlanches = nombrePlanches - nombrePlanchesNecessaires;
             niveauJoueur+=1;
+            PlayerMovement.increaseLevel();
             nombrePlanchesNecessaires = 2;
             nombreTissusNecessaires = 1;
         }
@@ -62,6 +63,7 @@ public class myGui : MonoBehaviour
             nombrePlanches = nombrePlanches - nombrePlanchesNecessaires;
             nombreTissus = nombreTissus - nombreTissusNecessaires;
             niveauJoueur+=1;
+            PlayerMovement.increaseLevel();
             nombrePlanchesNecessaires = 4;
             nombreTissusNecessaires = 8;
         }
@@ -70,6 +72,7 @@ public class myGui : MonoBehaviour
             nombrePlanches = nombrePlanches - nombrePlanchesNecessaires;
             nombreTissus = nombreTissus - nombreTissusNecessaires;
             niveauJoueur+=1;
+            PlayerMovement.increaseLevel();
             nombrePlanchesNecessaires = 2;
             nombreTissusNecessaires = 2;
             nombreCaillouxNecessaires = 10;
@@ -80,6 +83,7 @@ public class myGui : MonoBehaviour
             nombreTissus = nombreTissus - nombreTissusNecessaires;
             nombreCailloux = nombreCailloux - nombreCaillouxNecessaires;
             niveauJoueur+=1;
+            PlayerMovement.increaseLevel();
             nombrePlanchesNecessaires = 0;
             nombreTissusNecessaires = 0;
             nombreCaillouxNecessaires = 0;

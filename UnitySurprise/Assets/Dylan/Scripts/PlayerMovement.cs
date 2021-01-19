@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float vitesse_bateau;
     public float vitesse_perso;
     public string forme;
-    public int level;
+    public static int level;
 
     private float xglisse;
     private float yglisse;
@@ -70,7 +70,19 @@ public class PlayerMovement : MonoBehaviour
 		        	animator.SetFloat("speed", Mathf.Abs(xglisse)+Mathf.Abs(yglisse));
 		        }
 
-		        rb.velocity = new Vector2(xglisse, yglisse) * vitesse_perso;
+		        if(level == 1){
+		        	rb.velocity = new Vector2(xglisse, yglisse) * vitesse_bateau;
+		        }
+		        else if(level == 2){
+		        	rb.velocity = new Vector2(xglisse, yglisse) * vitesse_bateau*1.2f;
+		        }
+		        else if(level == 3){
+		        	rb.velocity = new Vector2(xglisse, yglisse) * vitesse_bateau*2.1f;
+		        }
+		        else if(level == 4){
+		        	rb.velocity = new Vector2(xglisse, yglisse) * vitesse_bateau*2f;
+		        }
+
 	        	break;
 
 
@@ -78,5 +90,9 @@ public class PlayerMovement : MonoBehaviour
                 rb.velocity = new Vector2(xmove, ymove) * vitesse_perso;
                 break;
         }
+    }
+
+    public static void increaseLevel(){
+    	level++;
     }
 }
