@@ -11,15 +11,23 @@ public class Collectible : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    void Update(){}
 
     void OnTriggerEnter2D(Collider2D target){
     	if(target.gameObject.tag == "Player"){
-    		myGui.increaseNombrePlanches();
-    		Destroy(gameObject);
+            print("player");
+            if(this.tag == "Planches"){
+    		  myGui.increaseNombrePlanches();
+    		  Destroy(gameObject);}
+            else if(this.tag == "Tissus"){
+                myGui.increaseNombreTissus();
+                Destroy(gameObject);
+            }
+            else if(this.tag == "Cailloux"){
+                myGui.increaseNombreCailloux();
+                Destroy(gameObject);
+            }
+
     	}
     }
 }
