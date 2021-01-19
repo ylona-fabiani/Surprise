@@ -8,6 +8,7 @@ TagManager:
   - Planches
   - Cailloux
   - Pelle
+  - Sable
   layers:
   - Default
   - TransparentFX

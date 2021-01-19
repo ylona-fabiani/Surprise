@@ -16,6 +16,8 @@ public class myGui : MonoBehaviour
     static public int nombreTissusNecessaires;
     static public int nombreCaillouxNecessaires;
 
+    static public bool creusable;
+
     public Texture2D imagePlanches;
     public Texture2D imageTissus;
     public Texture2D imageCailloux;
@@ -27,6 +29,7 @@ public class myGui : MonoBehaviour
 
         niveauJoueur = 0;
         possedePelle=false;
+        creusable =false;
 
         nombrePlanchesNecessaires = 5;
         nombreTissusNecessaires = 0;
@@ -85,10 +88,20 @@ public class myGui : MonoBehaviour
          GUI.Label (new Rect(400,8,80,20), niveauJoueur.ToString());
          GUI.Label (new Rect(400,80,80,20), possedePelle.ToString());
 
+         if(creusable){
+             if (GUI.Button (new Rect (Screen.width/2-40, Screen.height/2-10, 80, 20), "Creuser")) {
+                //Collectible.creuser();
+            }
+         }
     }
 
     public static void increaseNombrePlanches(){nombrePlanches=nombrePlanches+1;}
     public static void increaseNombreTissus(){nombreTissus=nombreTissus+1;}
     public static void increaseNombreCailloux(){nombreCailloux=nombreCailloux+1;}
     public static void recuperePelle(){possedePelle=true;}
+
+    public static void afficheCreuser(){
+        if(possedePelle){
+        creusable=true;}
+    }
 }
