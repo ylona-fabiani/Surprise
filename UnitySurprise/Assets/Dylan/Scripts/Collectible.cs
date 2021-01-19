@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
+    Collectible coffre;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +37,10 @@ public class Collectible : MonoBehaviour
             }
             else if(this.tag == "Sable"){
                 myGui.afficheCreuser(this);
+            }
+            else if(this.tag == "map"){
+                myGui.increaseMap();
+                Destroy(gameObject);
             }
 
     	}
