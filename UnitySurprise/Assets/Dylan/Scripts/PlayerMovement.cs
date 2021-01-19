@@ -16,6 +16,12 @@ public class PlayerMovement : MonoBehaviour
     private float yglisse;
 
 
+    public GameObject wall1;
+    public GameObject wall2;
+    public GameObject wall3;
+    public GameObject wall4;
+
+
     void Start(){
 
     }
@@ -58,14 +64,20 @@ public class PlayerMovement : MonoBehaviour
             	else if (xglisse == -1){
             		rb.rotation = 90;
             	}
-            	else {
+            	else if (xglisse == 1) {
             		rb.rotation = 270;
             	}
+
+            	if(Input.GetKeyDown("space")){
+		        	xglisse = 0;
+		        	yglisse = 0;
+		        }
 
 
 
 		        if(level > 0)
 		        {
+		        	enlever_wall(level);
 		        	animator.SetInteger("level", level);
 		        	animator.SetFloat("speed", Mathf.Abs(xglisse)+Mathf.Abs(yglisse));
 		        }
@@ -88,15 +100,23 @@ public class PlayerMovement : MonoBehaviour
 
             default :
                 rb.velocity = new Vector2(xmove, ymove) * vitesse_perso;
+                enlever_wall(level);
                 break;
         }
     }
 
-    public static void increaseLevel(){
-    	level++;
+    public void enlever_wall(int lvl){
+    	Destroy(GameObject.Find(string.Format("wall{0}",lvl)));
     }
+
+    
 
     public void setForme(string f) {
     	forme = f;
+    }
+
+
+    public static void increaseLevel(){
+    	level++;
     }
 }
