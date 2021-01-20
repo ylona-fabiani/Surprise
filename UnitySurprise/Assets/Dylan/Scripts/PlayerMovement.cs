@@ -21,9 +21,11 @@ public class PlayerMovement : MonoBehaviour
     public GameObject wall3;
     public GameObject wall4;
 
+    private SoundEffectsHelper SoundEffectsHelper;
+
 
     void Start(){
-
+        SoundEffectsHelper = GetComponent<SoundEffectsHelper>();
     }
 
     void Update()
@@ -88,15 +90,15 @@ public class PlayerMovement : MonoBehaviour
 		        }
 		        else if(level == 2){
 		        	rb.velocity = new Vector2(xglisse, yglisse) * vitesse_bateau*1.2f;
-		        	SoundEffectsHelper.Instance.MakePlayerShotSound();
+		        	SoundEffectsHelper.MakePlayerShotSound();
 		        }
 		        else if(level == 3){
 		        	rb.velocity = new Vector2(xglisse, yglisse) * vitesse_bateau*2.1f;
-		        	SoundEffectsHelper.Instance.MakeExplosionSound();
+		        	SoundEffectsHelper.MakeExplosionSound();
 		        }
 		        else if(level == 4){
 		        	rb.velocity = new Vector2(xglisse, yglisse) * vitesse_bateau*2f;
-		        	SoundEffectsHelper.Instance.MakeEnemyShotSound();
+		        	SoundEffectsHelper.MakeEnemyShotSound();
 		        }
 
 	        	break;

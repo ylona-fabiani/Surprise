@@ -10,12 +10,13 @@ public class SoundEffectsHelper : MonoBehaviour
   /// <summary>
   /// Singleton
   /// </summary>
-  public static SoundEffectsHelper Instance;
+  //public static SoundEffectsHelper Instance;
 
   public AudioClip explosionSound;
   public AudioClip playerShotSound;
   public AudioClip enemyShotSound;
 
+/*
   void Awake()
   {
     if (Instance != null)
@@ -23,7 +24,7 @@ public class SoundEffectsHelper : MonoBehaviour
       Debug.LogError("Multiple instances of SoundEffectsHelper!");
     }
     Instance = this;
-  }
+  }*/
 
   public void MakeExplosionSound()
   {
@@ -45,7 +46,10 @@ public class SoundEffectsHelper : MonoBehaviour
   /// </summary>
   /// <param name="originalClip"></param>
   private void MakeSound(AudioClip originalClip)
-  {
-    AudioSource.PlayClipAtPoint(originalClip, transform.position);
+  {    
+    if (originalClip!=null)
+      AudioSource.PlayClipAtPoint(originalClip, transform.position);
   }
+
+
 }

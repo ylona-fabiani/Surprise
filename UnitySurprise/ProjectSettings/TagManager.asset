@@ -11,6 +11,7 @@ TagManager:
   - Sable
   - map
   - coffre
+  - herbe
   layers:
   - Default
   - TransparentFX
