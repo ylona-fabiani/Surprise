@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        SoundEffectsHelper.Instance.MakePlayerShotSound();
+        
         float xmove = Input.GetAxisRaw("Horizontal");
         float ymove = Input.GetAxisRaw("Vertical");
 
@@ -88,12 +88,15 @@ public class PlayerMovement : MonoBehaviour
 		        }
 		        else if(level == 2){
 		        	rb.velocity = new Vector2(xglisse, yglisse) * vitesse_bateau*1.2f;
+		        	SoundEffectsHelper.Instance.MakePlayerShotSound();
 		        }
 		        else if(level == 3){
 		        	rb.velocity = new Vector2(xglisse, yglisse) * vitesse_bateau*2.1f;
+		        	SoundEffectsHelper.Instance.MakeExplosionSound();
 		        }
 		        else if(level == 4){
 		        	rb.velocity = new Vector2(xglisse, yglisse) * vitesse_bateau*2f;
+		        	SoundEffectsHelper.Instance.MakeEnemyShotSound();
 		        }
 
 	        	break;

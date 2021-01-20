@@ -1,0 +1,177 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'fr' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Users/gabaz/Desktop/Surprise/UnitySurprise
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62690
+Successfully changed project path to: D:/Users/gabaz/Desktop/Surprise/UnitySurprise
+D:/Users/gabaz/Desktop/Surprise/UnitySurprise
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/gabaz/Desktop/Surprise/UnitySurprise/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   26.21.14.4575
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002473 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.379 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.9 MB.
+System memory in use after: 83.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2234.
+Total: 2.150300 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.049600 ms MarkObjects: 1.748300 ms  DeleteObjects: 0.118700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Dylan/import/anim_kraken
+  artifactKey: Guid(2696c74d42ceeb547a00fc75d03999ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/import/anim_kraken using Guid(2696c74d42ceeb547a00fc75d03999ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b9b8cdfc400d90879373c88a54a652') in 0.010299 seconds
+  Import took 0.013147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.314623 seconds.
+  path: Assets/Dylan/import/anim_kraken/krakenRose.png
+  artifactKey: Guid(57a4aaa90cf7d15428b1df3c46cef425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/import/anim_kraken/krakenRose.png using Guid(57a4aaa90cf7d15428b1df3c46cef425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5551470610d259ed7b87f65bfd722961') in 0.151038 seconds
+  Import took 0.154075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.425678 seconds.
+  path: Assets/Dylan/import/anim_kraken/krakenRose2.png
+  artifactKey: Guid(59220169d3794e145abc2f8b5d81d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/import/anim_kraken/krakenRose2.png using Guid(59220169d3794e145abc2f8b5d81d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237d76dce634f2163e33bd01ae27fa8f') in 0.018508 seconds
+  Import took 0.021534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.679319 seconds.
+  path: Assets/Dylan/import/anim_kraken/krakenRouge1.png
+  artifactKey: Guid(7994b9c0aa0ab1144bf7b6ae52ef5497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/import/anim_kraken/krakenRouge1.png using Guid(7994b9c0aa0ab1144bf7b6ae52ef5497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52433d308972862d9ae0f9070cd3c9a0') in 0.017547 seconds
+  Import took 0.020588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.233122 seconds.
+  path: Assets/Dylan/import/anim_kraken/krakenRouge2.png
+  artifactKey: Guid(17849be89fe41464292691b235e4c231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/import/anim_kraken/krakenRouge2.png using Guid(17849be89fe41464292691b235e4c231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae2e9b7b1d2504aa8b17fa8135c5b0e') in 0.018218 seconds
+  Import took 0.021254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.246074 seconds.
+  path: Assets/Dylan/import/anim_kraken/krakenViolet1.png
+  artifactKey: Guid(feae341e873a4ae4cb86844c5461ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/import/anim_kraken/krakenViolet1.png using Guid(feae341e873a4ae4cb86844c5461ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371568618f2a4f676cd9950c1deec3d0') in 0.020775 seconds
+  Import took 0.023871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.547372 seconds.
+  path: Assets/Dylan/import/anim_kraken/krakenViolet2.png
+  artifactKey: Guid(1b9122d560990ef4d8b7ae387d360eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/import/anim_kraken/krakenViolet2.png using Guid(1b9122d560990ef4d8b7ae387d360eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b56b0a9c4bf1b67bd2839241b6b6ca8') in 0.018936 seconds
+  Import took 0.022248 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.0 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2243.
+Total: 1.994100 ms (FindLiveObjects: 0.196500 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.648700 ms  DeleteObjects: 0.106400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2246.
+Total: 2.017900 ms (FindLiveObjects: 0.206700 ms CreateObjectMapping: 0.044100 ms MarkObjects: 1.662400 ms  DeleteObjects: 0.103500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
