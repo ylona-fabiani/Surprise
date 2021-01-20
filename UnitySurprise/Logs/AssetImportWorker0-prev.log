@@ -1,0 +1,898 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'fr' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Documents\Unity\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Documents/Cours/IUT/CGJ21/Surprise/UnitySurprise
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53953
+Successfully changed project path to: D:/Documents/Cours/IUT/CGJ21/Surprise/UnitySurprise
+D:/Documents/Cours/IUT/CGJ21/Surprise/UnitySurprise
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path D:/Documents/Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documents/Cours/IUT/CGJ21/Surprise/UnitySurprise/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'D:/Documents/Unity/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Documents/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Documents/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Documents/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000833 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000844 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023C0A6B7410 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A5C020D00 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06770430 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05EA8030 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A6DC020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B408230 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06124040 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A6F3ED0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0ABB6230 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0ABB6230 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0ABD6020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC03830 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C061C6E20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC03830 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9F87A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0ABB6230 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05D91680 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9F87A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B489860 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A82AC20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C065BFA20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A63D030 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AB56630 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A63D030 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C066CE040 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0ADC6010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0ABB6230 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C061CD430 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063BCD40 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9F87A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C061C6E20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0ABB6230 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.0 MB.
+System memory in use after: 84.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2239.
+Total: 3.451700 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.079300 ms MarkObjects: 3.083400 ms  DeleteObjects: 0.100700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Dylan/Scripts/Tresor.cs
+  artifactKey: Guid(d395d60996315b64a90ea2548a4e5b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/Scripts/Tresor.cs using Guid(d395d60996315b64a90ea2548a4e5b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1035e3642375e6c3a02d3c0a885498be') in 0.034522 seconds
+  Import took 0.038360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.703220 seconds.
+  path: Assets/Dylan/Scripts/Collectible.cs
+  artifactKey: Guid(7d73855886aa3a0478609e09ef245f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/Scripts/Collectible.cs using Guid(7d73855886aa3a0478609e09ef245f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3efdb9c900f0eea0b0c6283f0de59f') in 0.005281 seconds
+  Import took 0.007643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017896 seconds.
+  path: Assets/Dylan/Scripts/Collectible.cs
+  artifactKey: Guid(7d73855886aa3a0478609e09ef245f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/Scripts/Collectible.cs using Guid(7d73855886aa3a0478609e09ef245f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3efdb9c900f0eea0b0c6283f0de59f') in 0.002245 seconds
+  Import took 0.004989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.918424 seconds.
+  path: Assets/Dylan/Scripts/Collectible.cs
+  artifactKey: Guid(7d73855886aa3a0478609e09ef245f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/Scripts/Collectible.cs using Guid(7d73855886aa3a0478609e09ef245f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4655d900a57d63a9b19e6fa981f8f9') in 0.003655 seconds
+  Import took 0.006853 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000827 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023C06124040 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A5C0217E0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D301C00 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A5D9A40 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C57010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C57010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C57010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D173A20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C57010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C57010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06124040 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CEB1720 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D301C00 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C57010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B8E14E0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0ABB6230 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D533430 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B8E14E0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D173A20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0C854D80 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C065BFA20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063193A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0C854D80 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063B8010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B8E06D0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A8C1010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0BCEB010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B3491A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063BC600 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B8E14E0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D301C00 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CF6AF50 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.1 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2242.
+Total: 1.552900 ms (FindLiveObjects: 0.152500 ms CreateObjectMapping: 0.054100 ms MarkObjects: 1.269400 ms  DeleteObjects: 0.076300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.633054 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888d370e1e7df26cec849a55c6c5e512') in 0.014432 seconds
+  Import took 0.016980 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 49.0 MB.
+System memory in use after: 49.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2242.
+Total: 2.324100 ms (FindLiveObjects: 0.149800 ms CreateObjectMapping: 0.055700 ms MarkObjects: 2.035300 ms  DeleteObjects: 0.082100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000779 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023C0A6B7410 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A5C020D00 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06770430 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9562A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0BCF3020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05FC4090 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0BCF3020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B011FB0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0BCF3020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0BCF3020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A6B7410 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CEB1720 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06770430 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0BCF3020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B8E14E0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D3E3C70 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9562A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D47CA60 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0C84F070 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D05D010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D4C69C0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06770430 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D05D010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CD1E020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9562A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC2A020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0614B050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C681A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063BC090 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B8E14E0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06770430 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C066BC020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2245.
+Total: 1.619700 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.066900 ms MarkObjects: 1.298200 ms  DeleteObjects: 0.080900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 645.281804 seconds.
+  path: Assets/Dylan/Scripts/Collectible.cs
+  artifactKey: Guid(7d73855886aa3a0478609e09ef245f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/Scripts/Collectible.cs using Guid(7d73855886aa3a0478609e09ef245f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129ea93d19977a142515e411aa3437f7') in 0.004530 seconds
+  Import took 0.007080 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000826 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023C0CC3C010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A5C01FE80 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D341220 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05EA7300 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B9A1830 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05FC4090 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B9A1830 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0C875190 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D415F70 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B9A1830 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CC3C010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B8D00C0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B8E54F0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B9A1830 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A6F20B0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0C1D7020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D40E6A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D47CA60 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0609AA20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9E1010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D801300 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063193A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CC74020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A5E791140 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05CAA010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06668030 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C062E4E80 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A6E8E40 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063BC9A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A6F20B0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B8E54F0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B00A040 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2248.
+Total: 1.869100 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.102700 ms MarkObjects: 1.421200 ms  DeleteObjects: 0.083400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.588760 seconds.
+  path: Assets/Dylan/Scripts/Collectible.cs
+  artifactKey: Guid(7d73855886aa3a0478609e09ef245f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/Scripts/Collectible.cs using Guid(7d73855886aa3a0478609e09ef245f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d10bd6c595cfa5e6283518e0d7d4ac') in 0.004480 seconds
+  Import took 0.007073 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000760 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023C060D4CB0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A5C020D00 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D84B020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D573160 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05FC4090 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0C875190 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CFBD010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CC3C010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0C68E010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B9AEE40 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A6F20B0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0C6A7020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D4121C0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D47CA60 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0609AA20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9E1010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A653010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D84B020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CC74020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AFBD020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05D05020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D801300 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C062E4E80 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A5D93D0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063BC430 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C10010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B9AEE40 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.681 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2251.
+Total: 1.649700 ms (FindLiveObjects: 0.171100 ms CreateObjectMapping: 0.064700 ms MarkObjects: 1.334200 ms  DeleteObjects: 0.078800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.031189 seconds.
+  path: Assets/Dylan/Scripts/PlayerMovement.cs
+  artifactKey: Guid(accb89be3d8160d4bacffc709334b6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/Scripts/PlayerMovement.cs using Guid(accb89be3d8160d4bacffc709334b6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6e01d3241b652a97b43cce4271958b') in 0.006844 seconds
+  Import took 0.009237 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000758 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023C0D0BB010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A5C0217E0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D341220 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D573160 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CF6A6F0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06413020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0C41C020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A6B7410 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B8D00C0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D883010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D601020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D601020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D4121C0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D43BB10 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0609AA20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9E1010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A653010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D883010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9E1010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AFBD020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B2A3710 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0C779020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06601010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A6E8E40 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063BCB70 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AF0D620 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C2E317020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2254.
+Total: 1.530900 ms (FindLiveObjects: 0.151500 ms CreateObjectMapping: 0.055100 ms MarkObjects: 1.247000 ms  DeleteObjects: 0.076600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.715101 seconds.
+  path: Assets/Dylan/Scripts/myGui.cs
+  artifactKey: Guid(5a41ff7a586011f409c1b79472fd0e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/Scripts/myGui.cs using Guid(5a41ff7a586011f409c1b79472fd0e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6ac51b0313c8862f14a24809fb399e') in 0.007092 seconds
+  Import took 0.009473 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000693 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023C0A6B7410 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A5C0217E0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D480A70 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D573160 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CF6A6F0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06413020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D508010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CC3C010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B8D00C0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C14020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063149A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A6DE420 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D4121C0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D43BB10 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0609AA20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9E1010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A653010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C14020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C2E4B2360 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AFBD020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B2A3710 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A653010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06601010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05D7D880 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063BC090 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063149A0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C14020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2257.
+Total: 1.652900 ms (FindLiveObjects: 0.176300 ms CreateObjectMapping: 0.069400 ms MarkObjects: 1.325200 ms  DeleteObjects: 0.081100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 234.727130 seconds.
+  path: Assets/Dylan/Scripts/myGui.cs
+  artifactKey: Guid(5a41ff7a586011f409c1b79472fd0e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/Scripts/myGui.cs using Guid(5a41ff7a586011f409c1b79472fd0e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eae414b688ba61a7d255f97faf5023c') in 0.003796 seconds
+  Import took 0.006175 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000745 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023C0A6B7410 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A5C0217E0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D341220 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D573160 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CF6A6F0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D2FD3C0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C061BB040 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0C0EA030 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C2E8BD110 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D883010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C10010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0B002070 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0582CBB0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D47CA60 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0609AA20 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A9E1010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A653010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D883010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0CC74020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0ADA6020 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06065720 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C2E4DA9F0 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C06601010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0A6E8E40 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C063BC430 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C05C10010 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0D472460 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C0AC5C050 doesn't match image D:\Documents\Cours\IUT\CGJ21\Surprise\UnitySurprise\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.669 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 1.670300 ms (FindLiveObjects: 0.147100 ms CreateObjectMapping: 0.053200 ms MarkObjects: 1.393700 ms  DeleteObjects: 0.075500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.629501 seconds.
+  path: Assets/Dylan/Scripts/myGui.cs
+  artifactKey: Guid(5a41ff7a586011f409c1b79472fd0e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dylan/Scripts/myGui.cs using Guid(5a41ff7a586011f409c1b79472fd0e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59899df45c5d79529e7aebc5df2d38e2') in 0.003749 seconds
+  Import took 0.006235 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 49.7 MB.
+System memory in use after: 49.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 1.696300 ms (FindLiveObjects: 0.166900 ms CreateObjectMapping: 0.064800 ms MarkObjects: 1.377900 ms  DeleteObjects: 0.085400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.782807 seconds.
+  path: Assets/MainMenu/flecheclavier.png
+  artifactKey: Guid(48b91cbf3e453374c9c58219ea698518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/flecheclavier.png using Guid(48b91cbf3e453374c9c58219ea698518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da3f6855d1de3545b16c065760ba2ff') in 0.092826 seconds
+  Import took 0.095538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/MainMenu/spacebarre 1.png
+  artifactKey: Guid(35279cc92b358d44eb77eef05f1652be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/spacebarre 1.png using Guid(35279cc92b358d44eb77eef05f1652be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7c992ef5a2700c7d3d9f649b9217ad') in 0.029541 seconds
+  Import took 0.031912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/MainMenu/Mixer1.mixer
+  artifactKey: Guid(ed394ee3132ab5b4c93b29967b3901d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/Mixer1.mixer using Guid(ed394ee3132ab5b4c93b29967b3901d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898b6b4011702bf9947a2372fdcefece') in 0.008243 seconds
+  Import took 0.010894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.161093 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(a53a267caf3fe5745b43583b1899e79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(a53a267caf3fe5745b43583b1899e79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392d0661dc3645801153a4957fc66e35') in 0.006021 seconds
+  Import took 0.008627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004826 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(a53a267caf3fe5745b43583b1899e79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(a53a267caf3fe5745b43583b1899e79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392d0661dc3645801153a4957fc66e35') in 0.002740 seconds
+  Import took 0.005548 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

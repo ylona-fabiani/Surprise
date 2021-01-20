@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Collectible : MonoBehaviour
 {
@@ -58,14 +60,15 @@ public class Collectible : MonoBehaviour
     	}
     }
 
+ 
     public void creuser(){
     	if (coffre != null && coffre1 != null && coffre2 != null){
         	coffre.SetActive(true);
         	coffre2.SetActive(true);
         	coffre1.SetActive(true);
-        	
         }
         Destroy(gameObject);
         aEteCreuser=true;
     }
+
 }

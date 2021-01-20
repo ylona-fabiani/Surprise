@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class myGui : MonoBehaviour
 {   
@@ -127,7 +128,9 @@ public class myGui : MonoBehaviour
          }
 
 
-         if (affichemap && GUI.Button (new Rect (Screen.width-100, Screen.height-40, 80, 20), "Carte")) {
+
+
+        if (affichemap && GUI.Button (new Rect (Screen.width-100, Screen.height-40, 80, 20), "Carte")) {
             affichemap=false;
             }else if(!affichemap && GUI.Button (new Rect (Screen.width-100, Screen.height-40, 80, 20), "Carte")){
                 affichemap=true;
@@ -137,7 +140,7 @@ public class myGui : MonoBehaviour
              if (GUI.Button (new Rect (Screen.width/2-40, Screen.height/2-10, 80, 20), "Creuser")) {
                 creusable.creuser();
             }
-         }
+        }
     }
 
     public static void increaseNombrePlanches(){nombrePlanches=nombrePlanches+1;}
