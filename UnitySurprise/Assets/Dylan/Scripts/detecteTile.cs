@@ -8,6 +8,7 @@ public class detecteTile : MonoBehaviour
 	public Rigidbody2D rb;
 	public checkTile ct;
 	public PlayerMovement pm;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +21,11 @@ public class detecteTile : MonoBehaviour
     {
         if(ct.checkIle(rb.position)) {
         	pm.setForme("perso");
+            animator.SetBool("perso", true);
         }
         else {
         	pm.setForme("bateau");
+            animator.SetBool("perso", false);
         }
     }
 }

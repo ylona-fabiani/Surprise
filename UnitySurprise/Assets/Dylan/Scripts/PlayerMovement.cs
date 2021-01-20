@@ -82,6 +82,7 @@ public class PlayerMovement : MonoBehaviour
 		        	animator.SetFloat("speed", Mathf.Abs(xglisse)+Mathf.Abs(yglisse));
 		        }
 
+
 		        if(level == 1){
 		        	rb.velocity = new Vector2(xglisse, yglisse) * vitesse_bateau;
 		        }
@@ -99,7 +100,13 @@ public class PlayerMovement : MonoBehaviour
 
 
             default :
+            	rb.rotation = 0;
                 rb.velocity = new Vector2(xmove, ymove) * vitesse_perso;
+                animator.SetInteger("level", level);
+		        animator.SetFloat("speed", Mathf.Abs(xglisse)+Mathf.Abs(yglisse));
+		        animator.SetBool("perso", true);
+		        animator.SetFloat("xspeed", xmove);
+		        animator.SetFloat("yspeed", ymove);
                 enlever_wall(level);
                 break;
         }
